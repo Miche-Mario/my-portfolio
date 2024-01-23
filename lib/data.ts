@@ -116,7 +116,7 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
-] as const;
+];
 
 export const projectsData: Project[] = [
   {
@@ -184,7 +184,7 @@ export const projectsData: Project[] = [
     imageUrl: seventh,
     link: "/",
   },
-] as const;
+];
 
 export const skillsData = [
   "HTML",
