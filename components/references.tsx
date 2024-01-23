@@ -21,8 +21,8 @@ export default function References() {
     >
       <SectionHeading>References</SectionHeading>
       <div className="grid md:grid-cols-3 md:gap-12 gap-4 grid-cols-1">
-        {references.map((item) => (
-          <div className="flex flex-col items-center">
+        {references.map((item, index) => (
+          <div key={index} className="flex flex-col items-center">
             <div className="relative mb-5">
               <motion.div
                 initial={{ opacity: 0, scale: 0 }}
