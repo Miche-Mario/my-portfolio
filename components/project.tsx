@@ -10,7 +10,7 @@ type Props = {
   title: string;
   description: string;
   tags: string[];
-  imageUrl: StaticImageData;
+  imageUrl: StaticImageData | string;
   link: string;
 };
 export default function Project({

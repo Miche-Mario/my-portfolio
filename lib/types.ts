@@ -10,3 +10,14 @@ export type References = {
   email?: string;
   title?: string;
 };
+
+export interface Project {
+  title: string;
+  description: string;
+  tags: string[];
+  imageUrls: string[];
+  github?: string;
+  figma?: string;
+  link: string;
+  instructionsDAcces?: string;
+}
